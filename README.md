@@ -22,4 +22,4 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
-https://the-movie-db-dyf-tfh.herokuapp.com/
+https://the-movie-db-dyftfh.herokuapp.com/
