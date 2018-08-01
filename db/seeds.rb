@@ -5,6 +5,9 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
-Movie.create(title: "Fate/Kaleid Liner Prisma Illya: Sekka no Chikai", release_year: 2017, director: "Oonuma Shin")
-Movie.create(title:"Fate/Stay Night: Heaven`s Feel", release_year: 2017, director: "Sudou Tomonori")
-Movie.create(title:"No Game no Life Zero", release_year: 2017, director: "Ishizuka Atsuko")
+Director.create(first_name: "Oonuma", last_name:"Shin")
+Director.create(first_name: "Sudou", last_name: "Tomonori")
+Director.create(first_name: "Ishizuka", last_name: "Atsuko")
+Movie.create(title: "Fate/Kaleid Liner Prisma Illya: Sekka no Chikai", release_year: 2017, director_id: 1)
+Movie.create(title:"Fate/Stay Night: Heaven`s Feel", release_year: 2017, director_id: 2)
+Movie.create(title:"No Game no Life Zero", release_year: 2017, director_id: 3)
